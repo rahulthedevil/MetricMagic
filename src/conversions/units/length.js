@@ -7,7 +7,7 @@
  * Object containing the length conversion units.
  * @type {Object}
  */
-export const length = {
+const length = {
     metric: {
         mm: {
             name: {
@@ -121,3 +121,5 @@ export const length = {
         }
     }
 };
+
+export default length;
