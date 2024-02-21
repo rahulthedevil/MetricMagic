@@ -13,7 +13,7 @@ export default class Converter {
     // Define Converter prototype methods here...
     from(fromUnit) {
         if (this.destination)
-            throw new Error('.from must be called before .to');
+            throw new Error('.to must be called after .from');
 
         this.origin = this.getUnit(fromUnit);
 
@@ -26,7 +26,7 @@ export default class Converter {
 
     to(toUnit) {
         if (!this.origin)
-            throw new Error('.to must be called after .from');
+            throw new Error('.from must be called before .to');
 
         this.destination = this.getUnit(toUnit);
 

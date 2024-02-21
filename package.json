@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rahul Dey",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
