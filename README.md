@@ -1,1 +1,1 @@
-# MetricMagic
+# metric-magic
