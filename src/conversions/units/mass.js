@@ -2,7 +2,7 @@
  * Mass conversion units.
  * @namespace mass
  */
-export const mass = {
+const mass = {
     metric: {
         mcg: {
             name: {
@@ -123,3 +123,5 @@ export const mass = {
         }
     }
 };
+
+export default mass;
