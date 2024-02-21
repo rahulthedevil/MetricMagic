@@ -4,161 +4,161 @@
  */
 const length = {
     metric: {
-        meter: {
+        m: {
             name: {
                 singular: 'Meter',
                 plural: 'Meters'
             },
             to_anchor: 1
         },
-        kilometer: {
+        km: {
             name: {
                 singular: 'Kilometer',
                 plural: 'Kilometers'
             },
             to_anchor: 1000
         },
-        decimeter: {
+        dm: {
             name: {
                 singular: 'Decimeter',
                 plural: 'Decimeters'
             },
             to_anchor: 0.1
         },
-        centimeter: {
+        cm: {
             name: {
                 singular: 'Centimeter',
                 plural: 'Centimeters'
             },
             to_anchor: 0.01
         },
-        millimeter: {
+        mm: {
             name: {
                 singular: 'Millimeter',
                 plural: 'Millimeters'
             },
             to_anchor: 0.001
         },
-        micrometer: {
+        µm: {
             name: {
                 singular: 'Micrometer',
                 plural: 'Micrometers'
             },
             to_anchor: 1e-6
         },
-        nanometer: {
+        nm: {
             name: {
                 singular: 'Nanometer',
                 plural: 'Nanometers'
             },
             to_anchor: 1e-9
         },
-        light_year: {
+        ly: {
             name: {
                 singular: 'Light Year',
                 plural: 'Light Years'
             },
             to_anchor: 9460730472580800
         },
-        exameter: {
+        Em: {
             name: {
                 singular: 'Exameter',
                 plural: 'Exameters'
             },
             to_anchor: 1e18
         },
-        petameter: {
+        Pm: {
             name: {
                 singular: 'Petameter',
                 plural: 'Petameters'
             },
             to_anchor: 1e15
         },
-        terameter: {
+        Tm: {
             name: {
                 singular: 'Terameter',
                 plural: 'Terameters'
             },
             to_anchor: 1e12
         },
-        gigameter: {
+        Gm: {
             name: {
                 singular: 'Gigameter',
                 plural: 'Gigameters'
             },
             to_anchor: 1e9
         },
-        megameter: {
+        Mm: {
             name: {
                 singular: 'Megameter',
                 plural: 'Megameters'
             },
             to_anchor: 1e6
         },
-        hectometer: {
+        hm: {
             name: {
                 singular: 'Hectometer',
                 plural: 'Hectometers'
             },
             to_anchor: 1e2
         },
-        dekameter: {
+        dam: {
             name: {
                 singular: 'Dekameter',
                 plural: 'Dekameters'
             },
             to_anchor: 1e1
         },
-        micron: {
+        µin: {
             name: {
                 singular: 'Micron',
                 plural: 'Microns'
             },
             to_anchor: 1e-6
         },
-        picometer: {
+        pm: {
             name: {
                 singular: 'Picometer',
                 plural: 'Picometers'
             },
             to_anchor: 1e-12
         },
-        femtometer: {
+        fm: {
             name: {
                 singular: 'Femtometer',
                 plural: 'Femtometers'
             },
             to_anchor: 1e-15
         },
-        attometer: {
+        am: {
             name: {
                 singular: 'Attometer',
                 plural: 'Attometers'
             },
             to_anchor: 1e-18
         },
-        megaparsec: {
+        Mpc: {
             name: {
                 singular: 'Megaparsec',
                 plural: 'Megaparsecs'
             },
             to_anchor: 3.08567758149137e22
         },
-        kiloparsec: {
+        kpc: {
             name: {
                 singular: 'Kiloparsec',
                 plural: 'Kiloparsecs'
             },
             to_anchor: 3.08567758149137e19
         },
-        parsec: {
+        pc: {
             name: {
                 singular: 'Parsec',
                 plural: 'Parsecs'
             },
             to_anchor: 3.08567758149137e16
         },
-        astronomical_unit: {
+        au: {
             name: {
                 singular: 'Astronomical Unit',
                 plural: 'Astronomical Units'
@@ -186,7 +186,7 @@ const length = {
             },
             to_anchor: 5556
         },
-        league_statute: {
+        league_stat: {
             name: {
                 singular: 'League (statute)',
                 plural: 'Leagues (statute)'
@@ -207,7 +207,7 @@ const length = {
             },
             to_anchor: 1852
         },
-        mile_statute: {
+        mile_stat: {
             name: {
                 singular: 'Mile (statute)',
                 plural: 'Miles (statute)'
@@ -228,21 +228,21 @@ const length = {
             },
             to_anchor: 1471.5
         },
-        kiloyard: {
+        kyd: {
             name: {
                 singular: 'Kiloyard',
                 plural: 'Kiloyards'
             },
             to_anchor: 914.4
         },
-        furlong: {
+        fur: {
             name: {
                 singular: 'Furlong',
                 plural: 'Furlongs'
             },
             to_anchor: 201.168
         },
-        furlong_us_survey: {
+        fur_us_survey: {
             name: {
                 singular: 'Furlong (US survey)',
                 plural: 'Furlongs (US survey)'
@@ -298,14 +298,14 @@ const length = {
             },
             to_anchor: 5.0292
         },
-        fathom: {
+        fmth: {
             name: {
                 singular: 'Fathom',
                 plural: 'Fathoms'
             },
             to_anchor: 1.8288
         },
-        fathom_us_survey: {
+        fmth_us_survey: {
             name: {
                 singular: 'Fathom (US survey)',
                 plural: 'Fathoms (US survey)'
@@ -319,7 +319,7 @@ const length = {
             },
             to_anchor: 1.143
         },
-        foot_us_survey: {
+        ft_us_survey: {
             name: {
                 singular: 'Foot (US survey)',
                 plural: 'Feet (US survey)'
@@ -375,14 +375,14 @@ const length = {
             },
             to_anchor: 0.05715
         },
-        inch_us_survey: {
+        in_us_survey: {
             name: {
                 singular: 'Inch (US survey)',
                 plural: 'Inches (US survey)'
             },
             to_anchor: 0.0254000508001016
         },
-        barleycorn: {
+        bc: {
             name: {
                 singular: 'Barleycorn',
                 plural: 'Barleycorns'
@@ -396,21 +396,21 @@ const length = {
             },
             to_anchor: 2.54e-5
         },
-        microinch: {
+        µin: {
             name: {
                 singular: 'Microinch',
                 plural: 'Microinches'
             },
             to_anchor: 2.54e-8
         },
-        angstrom: {
+        Å: {
             name: {
                 singular: 'Angstrom',
                 plural: 'Angstroms'
             },
             to_anchor: 1e-10
         },
-        au_of_length: {
+        AU: {
             name: {
                 singular: 'A.U. of length',
                 plural: 'A.U. of length'
@@ -424,14 +424,14 @@ const length = {
             },
             to_anchor: 1.0021e-13
         },
-        fermi: {
+        fm: {
             name: {
                 singular: 'Fermi',
                 plural: 'Fermis'
             },
             to_anchor: 1e-15
         },
-        arpent: {
+        arp: {
             name: {
                 singular: 'Arpent',
                 plural: 'Arpents'
@@ -473,14 +473,14 @@ const length = {
             },
             to_anchor: 1.97848
         },
-        caliber: {
+        cal: {
             name: {
                 singular: 'Caliber',
                 plural: 'Calibers'
             },
             to_anchor: 0.000254
         },
-        centiinch: {
+        cin: {
             name: {
                 singular: 'Centiinch',
                 plural: 'Centiinchs'
@@ -494,35 +494,35 @@ const length = {
             },
             to_anchor: 1.81818
         },
-        russian_archin: {
+        ra: {
             name: {
                 singular: 'Russian Archin',
                 plural: 'Russian Archins'
             },
             to_anchor: 0.7112
         },
-        roman_actus: {
+        act: {
             name: {
                 singular: 'Roman Actus',
                 plural: 'Roman Actus'
             },
             to_anchor: 1.48644864
         },
-        vara_de_tarea: {
+        vt: {
             name: {
                 singular: 'Vara de Tarea',
                 plural: 'Vara de Tarea'
             },
             to_anchor: 0.7056
         },
-        vara_conuquera: {
+        vc: {
             name: {
                 singular: 'Vara Conuquera',
                 plural: 'Vara Conuquera'
             },
             to_anchor: 0.8336
         },
-        vara_castellana: {
+        vcst: {
             name: {
                 singular: 'Vara Castellana',
                 plural: 'Vara Castellanas'
@@ -536,14 +536,14 @@ const length = {
             },
             to_anchor: 0.462
         },
-        long_reed: {
+        lr: {
             name: {
                 singular: 'Long Reed',
                 plural: 'Long Reeds'
             },
             to_anchor: 6.096
         },
-        reed: {
+        rd: {
             name: {
                 singular: 'Reed',
                 plural: 'Reeds'
@@ -557,63 +557,63 @@ const length = {
             },
             to_anchor: 0.4572
         },
-        handbreadth: {
+        hbr: {
             name: {
                 singular: 'Handbreadth',
                 plural: 'Handbreadths'
             },
             to_anchor: 0.1016
         },
-        fingerbreadth: {
+        fbr: {
             name: {
                 singular: 'Fingerbreadth',
                 plural: 'Fingerbreadths'
             },
             to_anchor: 0.0254
         },
-        planck_length: {
+        pl: {
             name: {
                 singular: 'Planck Length',
                 plural: 'Planck Lengths'
             },
             to_anchor: 1.616255e-35
         },
-        electron_radius_classical: {
+        erc: {
             name: {
                 singular: 'Electron Radius (classical)',
                 plural: 'Electron Radius (classical)'
             },
             to_anchor: 2.81794e-15
         },
-        bohr_radius: {
+        br: {
             name: {
                 singular: 'Bohr Radius',
                 plural: 'Bohr Radii'
             },
             to_anchor: 5.29177e-11
         },
-        earth_equatorial_radius: {
+        eer: {
             name: {
                 singular: 'Earth\'s Equatorial Radius',
                 plural: 'Earth\'s Equatorial Radii'
             },
             to_anchor: 6378137
         },
-        earth_polar_radius: {
+        per: {
             name: {
                 singular: 'Earth\'s Polar Radius',
                 plural: 'Earth\'s Polar Radii'
             },
             to_anchor: 6356752.3
         },
-        earth_distance_sun: {
+        eds: {
             name: {
                 singular: 'Earth\'s Distance from Sun',
                 plural: 'Earth\'s Distances from Sun'
             },
             to_anchor: 149597870700
         },
-        sun_radius: {
+        sr: {
             name: {
                 singular: 'Sun\'s Radius',
                 plural: 'Sun\'s Radii'
@@ -622,28 +622,28 @@ const length = {
         }
     },
     imperial: {
-        inch: {
+        in: {
             name: {
                 singular: 'Inch',
                 plural: 'Inches'
             },
             to_anchor: 0.0254
         },
-        foot: {
+        ft: {
             name: {
                 singular: 'Foot',
                 plural: 'Feet'
             },
             to_anchor: 0.3048
         },
-        yard: {
+        yd: {
             name: {
                 singular: 'Yard',
                 plural: 'Yards'
             },
             to_anchor: 0.9144
         },
-        mile: {
+        mi: {
             name: {
                 singular: 'Mile',
                 plural: 'Miles'
@@ -653,14 +653,14 @@ const length = {
     },
     _anchors: {
         metric: {
-            unit: 'meter',
+            unit: 'm',
             ratio: 1
         },
         imperial: {
-            unit: 'foot',
+            unit: 'ft',
             ratio: 0.3048
         }
     }
 };
 
-module.exports = length;
+export default length;

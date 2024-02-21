@@ -19,7 +19,6 @@ const temperature = {
             to_anchor: 1,
             anchor_shift: 273.15 // Celsius to Kelvin shift
         },
-        // Add other metric temperature units and their conversion factors here
     },
     imperial: {
         F: {
@@ -29,7 +28,6 @@ const temperature = {
             },
             to_anchor: 1
         },
-        // Add other imperial temperature units and their conversion factors here
     },
     _anchors: {
         metric: {

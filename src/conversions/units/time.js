@@ -38,6 +38,20 @@ const time = {
                 plural: 'Picoseconds'
             },
             to_anchor: 1 / 1000000000000
+        },
+        fs: {
+            name: {
+                singular: 'Femtosecond',
+                plural: 'Femtoseconds'
+            },
+            to_anchor: 1 / 1000000000000000
+        },
+        as: {
+            name: {
+                singular: 'Attosecond',
+                plural: 'Attoseconds'
+            },
+            to_anchor: 1 / 1000000000000000000
         }
     },
     imperial: {
@@ -82,6 +96,27 @@ const time = {
                 plural: 'Years'
             },
             to_anchor: 31536000
+        },
+        decade: {
+            name: {
+                singular: 'Decade',
+                plural: 'Decades'
+            },
+            to_anchor: 315360000
+        },
+        century: {
+            name: {
+                singular: 'Century',
+                plural: 'Centuries'
+            },
+            to_anchor: 3153600000
+        },
+        millennium: {
+            name: {
+                singular: 'Millennium',
+                plural: 'Millennia'
+            },
+            to_anchor: 31536000000
         }
     },
     _anchors: {

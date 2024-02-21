@@ -1,5 +1,5 @@
 import Converter from '../conversions/converter';
-import convert from '../';
+import convert from '../../';
 
 describe('Length Converter', () => {
   describe('to', () => {
