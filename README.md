@@ -277,31 +277,42 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
     - Century (century) - `century`
     - Millennium (millennium) - `millennium`
 
-Error Handling
-Metric Converter provides error handling for unsupported units and invalid conversion operations. If an unsupported unit is provided or an invalid conversion operation is attempted, an appropriate error will be thrown.
+## Error Handling Metric Converter
 
-API Reference
-convert(value)
+Error Handling Metric Converter provides error handling for unsupported units and invalid conversion operations. If an unsupported unit is provided or an invalid conversion operation is attempted, an appropriate error will be thrown.
+
+### API Reference
+
+#### `convert(value)`
+
 Creates a converter instance with the given initial value.
 
-value: The initial value to convert.
-Converter.from(unit)
+- **value**: The initial value to convert.
+
+#### `Converter.from(unit)`
+
 Specifies the origin unit for conversion.
 
-unit: The unit of the input value.
-Converter.to(unit)
+- **unit**: The unit of the input value.
+
+#### `Converter.to(unit)`
+
 Converts the value to the specified unit.
 
-unit: The unit to convert to.
-Author
-Name: Rahul Dey
-License
-This project is licensed under the ISC License.
+- **unit**: The unit to convert to.
 
-Contributing
-Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request on GitHub.
+### Author
 
-Dependencies
-lodash (^4.17.21)
+**Name:** Rahul Dey
 
+### License
 
+This project is licensed under the MIT License.
+
+### Contributing
+
+Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request on [GitHub Issues](https://github.com/rahulthedevil/metric-converter/issues).
+
+### Dependencies
+
+- lodash (^4.17.21)
