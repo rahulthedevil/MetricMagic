@@ -30,7 +30,7 @@ const length = {
                 singular: 'Centimeter',
                 plural: 'Centimeters'
             },
-            to_anchor: 0.01
+            to_anchor: 1/100
         },
         mm: {
             name: {
@@ -627,34 +627,34 @@ const length = {
                 singular: 'Inch',
                 plural: 'Inches'
             },
-            to_anchor: 0.0254
+            to_anchor: 1/12
         },
         ft: {
             name: {
                 singular: 'Foot',
                 plural: 'Feet'
             },
-            to_anchor: 0.3048
+            to_anchor: 1
         },
         yd: {
             name: {
                 singular: 'Yard',
                 plural: 'Yards'
             },
-            to_anchor: 0.9144
+            to_anchor: 3
         },
         mi: {
             name: {
                 singular: 'Mile',
                 plural: 'Miles'
             },
-            to_anchor: 1609.34
+            to_anchor: 5280
         }
     },
     _anchors: {
         metric: {
             unit: 'm',
-            ratio: 1
+            ratio: 3.28084
         },
         imperial: {
             unit: 'ft',

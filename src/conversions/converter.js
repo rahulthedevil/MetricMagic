@@ -27,30 +27,32 @@ export default class Converter {
     to(toUnit) {
         if (!this.origin)
             throw new Error('.from must be called before .to');
-
+    
         this.destination = this.getUnit(toUnit);
-
+    
         let result, transform;
-
+    
         if (!this.destination) {
             this.throwUnsupportedUnitError(toUnit);
         }
-
+    
         // Don't change the value if origin and destination are the same
         if (this.origin.abbr === this.destination.abbr) {
             return this.val;
         }
-
+    
         // You can't go from liquid to mass, for example
         if (this.destination.measure != this.origin.measure) {
             throw new Error('Cannot convert incompatible measures of ' + this.destination.measure + ' and ' + this.origin.measure);
         }
-
+    
         /**
         * Convert from the source value to its anchor inside the system
         */
         result = this.val * this.origin.unit.to_anchor;
-
+    
+        console.log("Result after converting to anchor in source system:", result);
+    
         /**
         * For some changes it's a simple shift (C to K)
         * So we'll add it when converting into the unit (later)
@@ -59,7 +61,9 @@ export default class Converter {
         if (this.origin.unit.anchor_shift) {
             result -= this.origin.unit.anchor_shift;
         }
-
+    
+        console.log("Result after applying anchor shift in source unit:", result);
+    
         /**
         * Convert from one system to another through the anchor ratio. Some conversions
         * aren't ratio based or require more than a simple shift. We can provide a custom
@@ -70,22 +74,33 @@ export default class Converter {
             if (typeof transform === 'function') {
                 result = transform(result);
             } else {
-                result *= measures[this.origin.measure]._anchors[this.origin.system].ratio;
+                result *= +(measures[this.origin.measure]._anchors[this.origin.system].ratio);
             }
         }
-
+    
+        console.log("Result after converting between systems:", result);
+    
         /**
         * This shift has to be done after the system conversion business
         */
         if (this.destination.unit.anchor_shift) {
             result += this.destination.unit.anchor_shift;
         }
-
+    
+        console.log("Result after applying anchor shift in destination unit:", result);
+    
         /**
         * Convert to another unit inside the destination system
         */
-        return result / this.destination.unit.to_anchor;
+        let finalResult = result / this.destination.unit.to_anchor;
+
+        finalResult = Math.round(finalResult * 1e6) / 1e6;
+    
+        console.log("Final result after converting to destination unit:", finalResult);
+    
+        return finalResult;
     }
+    
 
     getUnit(abbr) {
         let found;
