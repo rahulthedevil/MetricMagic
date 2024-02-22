@@ -1,7 +1,7 @@
 {
   "name": "metric-converter",
   "version": "v0.0.2-alpha",
-  "description": "",
+  "description": "A simple utility package for converting between metric units such as meters, kilometers, grams, kilograms, liters, and more.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -17,5 +17,10 @@
     "@babel/preset-env": "^7.23.9",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulthedevil/metric-converter.git"
+  },
+  "keywords": ["metric", "converter", "units", "measurements", "metric system", "utilities"]
 }
