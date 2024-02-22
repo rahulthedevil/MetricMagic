@@ -22,5 +22,5 @@
     "type": "git",
     "url": "git+https://github.com/rahulthedevil/metric-converter.git"
   },
-  "keywords": ["metric", "converter", "units", "measurements", "metric system", "utilities"]
+  "keywords": ["metric", "converter", "units", "measurements", "metric system", "utilities", "imperial", "ratio", "fraction", "convert-units", "unit-conversion", "uom", "temperature", "mass", "weight", "length", "data"]
 }
