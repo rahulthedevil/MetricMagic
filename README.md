@@ -552,6 +552,25 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Speed</summary>
+
+- Meter per second (m/s) - `m/s`
+- Kilometer per hour (km/h) - `km/h` (1 km/h = 1/3.6 m/s)
+- Centimeter per second (cm/s) - `cm/s` (1 cm/s = 1/100 m/s)
+- Millimeter per second (mm/s) - `mm/s` (1 mm/s = 1/1000 m/s)
+- Kilometer per minute (km/min) - `km/min` (1 km/min = 1/60 km/h)
+- Kilometer per second (km/s) - `km/s` (1 km/s = 1000 m/s)
+- Foot per second (ft/s) - `ft/s` (1 ft/s = 0.3048 m/s)
+- Mile per hour (mi/h) - `mi/h` (1 mi/h = 0.44704 m/s)
+- Foot per minute (ft/min) - `ft/min` (1 ft/min = 0.3048/60 m/s)
+- Foot per hour (ft/h) - `ft/h` (1 ft/h = 0.3048/3600 m/s)
+- Mile per minute (mi/min) - `mi/min` (1 mi/min = 0.44704/60 m/s)
+- Mile per second (mi/s) - `mi/s` (1 mi/s = 0.44704*3600 m/s)
+- Knot (kn) - `kn` (1 knot = 0.514444 m/s)
+
+</details>
+
 
 ## Error Handling Metric Converter
 
