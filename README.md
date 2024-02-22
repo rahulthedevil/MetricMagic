@@ -589,6 +589,61 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Fuel Consumption</summary>
+
+- Meter per Liter (m/L) - `m/L`
+- Exameter per Liter (Em/L) - `Em/L`
+- Petameter per Liter (Pm/L) - `Pm/L`
+- Terameter per Liter (Tm/L) - `Tm/L`
+- Gigameter per Liter (Gm/L) - `Gm/L`
+- Megameter per Liter (Mm/L) - `Mm/L`
+- Kilometer per Liter (km/L) - `km/L`
+- Hectometer per Liter (hm/L) - `hm/L`
+- Dekameter per Liter (dam/L) - `dam/L`
+- Centimeter per Liter (cm/L) - `cm/L`
+- Mile (US) per Liter (mi/L) - `mi/L`
+- Nautical Mile per Liter (n.mile/L) - `n.mile/L`
+- Nautical Mile per Gallon (US) (n.mile/gallon (US)) - `n.mile/gallon (US)`
+- Kilometer per Gallon (US) (km/gallon (US)) - `km/gallon (US)`
+- Meter per Gallon (US) (m/gallon (US)) - `m/gallon (US)`
+- Meter per Gallon (UK) (m/gallon (UK)) - `m/gallon (UK)`
+- Mile (US) per Gallon (US) (mi/gallon (US)) - `mi/gallon (US)`
+- Mile (UK) per Gallon (UK) (mi/gallon (UK)) - `mi/gallon (UK)`
+- Meter per Cubic Meter (m/m^3) - `m/m^3`
+- Meter per Cubic Centimeter (m/cm^3) - `m/cm^3`
+- Meter per Cubic Yard (m/yd^3) - `m/yd^3`
+- Meter per Cubic Foot (m/ft^3) - `m/ft^3`
+- Meter per Cubic Inch (m/in^3) - `m/in^3`
+- Meter per Quart (US) (m/quart (US)) - `m/quart (US)`
+- Meter per Quart (UK) (m/quart (UK)) - `m/quart (UK)`
+- Meter per Pint (US) (m/pt (US)) - `m/pt (US)`
+- Meter per Pint (UK) (m/pt (UK)) - `m/pt (UK)`
+- Meter per Cup (US) (m/cup (US)) - `m/cup (US)`
+- Meter per Cup (UK) (m/cup (UK)) - `m/cup (UK)`
+- Meter per Fluid Ounce (US) (m/fl.ounce (US)) - `m/fl.ounce (US)`
+- Meter per Fluid Ounce (UK) (m/fl.ounce (UK)) - `m/fl.ounce (UK)`
+- Liter per Meter (L/m) - `L/m`
+- Liter per 100 Kilometers (L/100 km) - `L/100 km`
+- Gallon (US) per Mile (gallon (US)/mile) - `gallon (US)/mile`
+- Gallon (US) per 100 Miles (gallon (US)/100 mi) - `gallon (US)/100 mi`
+- Gallon (UK) per Mile (gallon (UK)/mile) - `gallon (UK)/mile`
+- Gallon (UK) per 100 Miles (gallon (UK)/100 mi) - `gallon (UK)/100 mi`
+- Mile (US) per Gallon (mile/gallon (US)) - `mile/gallon (US)`
+- Mile (UK) per Gallon (mile/gallon (UK)) - `mile/gallon (UK)`
+- Nautical Mile (US) per Gallon (nautical mile/gallon (US)) - `nautical mile/gallon (US)`
+- Nautical Mile (UK) per Gallon (nautical mile/gallon (UK)) - `nautical mile/gallon (UK)`
+- Meter per Quart (US) (meter/quart (US)) - `meter/quart (US)`
+- Meter per Quart (UK) (meter/quart (UK)) - `meter/quart (UK)`
+- Meter per Pint (US) (meter/pint (US)) - `meter/pint (US)`
+- Meter per Pint (UK) (meter/pint (UK)) - `meter/pint (UK)`
+- Meter per Cup (US) (meter/cup (US)) - `meter/cup (US)`
+- Meter per Cup (UK) (meter/cup (UK)) - `meter/cup (UK)`
+- Meter per Fluid Ounce (US) (meter/fl.ounce (US)) - `meter/fl.ounce (US)`
+- Meter per Fluid Ounce (UK) (meter/fl.ounce (UK)) - `meter/fl.ounce (UK)`
+
+</details>
+
 
 ## Error Handling Metric Converter
 

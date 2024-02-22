@@ -11,6 +11,7 @@ import power from './power';
 import force from './force';
 import speed from './speed';
 import angle from './angle';
+import fuelConsumption from './fuelConsumption';
 
 // Define a measures object to hold all measure definitions
 const measures = {
@@ -27,6 +28,7 @@ const measures = {
   force,
   speed,
   angle,
+  fuelConsumption,
 };
 
 // Export the measures object
