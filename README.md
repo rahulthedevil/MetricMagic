@@ -644,6 +644,51 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Number</summary>
+
+- Binary - `binary`
+- Octal - `octal`
+- Decimal - `decimal`
+- Hexadecimal - `hexadecimal`
+- Base-2 - `base-2`
+- Base-3 - `base-3`
+- Base-4 - `base-4`
+- Base-5 - `base-5`
+- Base-6 - `base-6`
+- Base-7 - `base-7`
+- Base-8 - `base-8`
+- Base-9 - `base-9`
+- Base-10 - `base-10`
+- Base-11 - `base-11`
+- Base-12 - `base-12`
+- Base-13 - `base-13`
+- Base-14 - `base-14`
+- Base-15 - `base-15`
+- Base-16 - `base-16`
+- Base-17 - `base-17`
+- Base-18 - `base-18`
+- Base-19 - `base-19`
+- Base-20 - `base-20`
+- Base-21 - `base-21`
+- Base-22 - `base-22`
+- Base-23 - `base-23`
+- Base-24 - `base-24`
+- Base-25 - `base-25`
+- Base-26 - `base-26`
+- Base-27 - `base-27`
+- Base-28 - `base-28`
+- Base-29 - `base-29`
+- Base-30 - `base-30`
+- Base-31 - `base-31`
+- Base-32 - `base-32`
+- Base-33 - `base-33`
+- Base-34 - `base-34`
+- Base-35 - `base-35`
+- Base-36 - `base-36`
+
+</details>
+
 
 ## Error Handling Metric Converter
 

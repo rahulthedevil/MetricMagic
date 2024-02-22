@@ -1,0 +1,53 @@
+const number = {
+    metric: {
+        binary: { name: { singular: 'Binary', plural: 'Binary' }, to_anchor: 2 },
+        octal: { name: { singular: 'Octal', plural: 'Octal' }, to_anchor: 8 },
+        decimal: { name: { singular: 'Decimal', plural: 'Decimal' }, to_anchor: 10 },
+        hexadecimal: { name: { singular: 'Hexadecimal', plural: 'Hexadecimal' }, to_anchor: 16 },
+        // Bases 2 to 36
+        'base-2': { name: { singular: 'Base-2', plural: 'Base-2' }, to_anchor: 2 },
+        'base-3': { name: { singular: 'Base-3', plural: 'Base-3' }, to_anchor: 3 },
+        'base-4': { name: { singular: 'Base-4', plural: 'Base-4' }, to_anchor: 4 },
+        'base-5': { name: { singular: 'Base-5', plural: 'Base-5' }, to_anchor: 5 },
+        'base-6': { name: { singular: 'Base-6', plural: 'Base-6' }, to_anchor: 6 },
+        'base-7': { name: { singular: 'Base-7', plural: 'Base-7' }, to_anchor: 7 },
+        'base-8': { name: { singular: 'Base-8', plural: 'Base-8' }, to_anchor: 8 },
+        'base-9': { name: { singular: 'Base-9', plural: 'Base-9' }, to_anchor: 9 },
+        'base-10': { name: { singular: 'Base-10', plural: 'Base-10' }, to_anchor: 10 },
+        'base-11': { name: { singular: 'Base-11', plural: 'Base-11' }, to_anchor: 11 },
+        'base-12': { name: { singular: 'Base-12', plural: 'Base-12' }, to_anchor: 12 },
+        'base-13': { name: { singular: 'Base-13', plural: 'Base-13' }, to_anchor: 13 },
+        'base-14': { name: { singular: 'Base-14', plural: 'Base-14' }, to_anchor: 14 },
+        'base-15': { name: { singular: 'Base-15', plural: 'Base-15' }, to_anchor: 15 },
+        'base-16': { name: { singular: 'Base-16', plural: 'Base-16' }, to_anchor: 16 },
+        'base-17': { name: { singular: 'Base-17', plural: 'Base-17' }, to_anchor: 17 },
+        'base-18': { name: { singular: 'Base-18', plural: 'Base-18' }, to_anchor: 18 },
+        'base-19': { name: { singular: 'Base-19', plural: 'Base-19' }, to_anchor: 19 },
+        'base-20': { name: { singular: 'Base-20', plural: 'Base-20' }, to_anchor: 20 },
+        'base-21': { name: { singular: 'Base-21', plural: 'Base-21' }, to_anchor: 21 },
+        'base-22': { name: { singular: 'Base-22', plural: 'Base-22' }, to_anchor: 22 },
+        'base-23': { name: { singular: 'Base-23', plural: 'Base-23' }, to_anchor: 23 },
+        'base-24': { name: { singular: 'Base-24', plural: 'Base-24' }, to_anchor: 24 },
+        'base-25': { name: { singular: 'Base-25', plural: 'Base-25' }, to_anchor: 25 },
+        'base-26': { name: { singular: 'Base-26', plural: 'Base-26' }, to_anchor: 26 },
+        'base-27': { name: { singular: 'Base-27', plural: 'Base-27' }, to_anchor: 27 },
+        'base-28': { name: { singular: 'Base-28', plural: 'Base-28' }, to_anchor: 28 },
+        'base-29': { name: { singular: 'Base-29', plural: 'Base-29' }, to_anchor: 29 },
+        'base-30': { name: { singular: 'Base-30', plural: 'Base-30' }, to_anchor: 30 },
+        'base-31': { name: { singular: 'Base-31', plural: 'Base-31' }, to_anchor: 31 },
+        'base-32': { name: { singular: 'Base-32', plural: 'Base-32' }, to_anchor: 32 },
+        'base-33': { name: { singular: 'Base-33', plural: 'Base-33' }, to_anchor: 33 },
+        'base-34': { name: { singular: 'Base-34', plural: 'Base-34' }, to_anchor: 34 },
+        'base-35': { name: { singular: 'Base-35', plural: 'Base-35' }, to_anchor: 35 },
+        'base-36': { name: { singular: 'Base-36', plural: 'Base-36' }, to_anchor: 36 },
+    },
+    imperial: {
+        // No specific imperial units for base conversions
+    },
+    _anchors: {
+        metric: { unit: 'decimal', ratio: 10 },
+        imperial: { unit: 'decimal', ratio: 10 },
+    },
+};
+
+export default number;
