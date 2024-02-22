@@ -435,6 +435,89 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Power</summary>
+
+- Watt (W) - `W`
+- Exawatt (EW) - `EW`
+- Petawatt (PW) - `PW`
+- Terawatt (TW) - `TW`
+- Gigawatt (GW) - `GW`
+- Megawatt (MW) - `MW`
+- Kilowatt (kW) - `kW`
+- Hectowatt (hW) - `hW`
+- Dekawatt (daW) - `daW`
+- Deciwatt (dW) - `dW`
+- Centiwatt (cW) - `cW`
+- Milliwatt (mW) - `mW`
+- Microwatt (µW) - `µW`
+- Nanowatt (nW) - `nW`
+- Picowatt (pW) - `pW`
+- Femtowatt (fW) - `fW`
+- Attowatt (aW) - `aW`
+- Horsepower (hp) - `hp`
+- Horsepower (UK) (hp_UK) - `hp_UK`
+- Horsepower (550 ft*lbf/s) (hp_550) - `hp_550`
+- Horsepower (metric) (hp_metric) - `hp_metric`
+- Horsepower (boiler) (hp_boiler) - `hp_boiler`
+- Horsepower (electric) (hp_electric) - `hp_electric`
+- Horsepower (water) (hp_water) - `hp_water`
+- Pferdestarke (ps) - `ps`
+- Btu (IT)/hour (Btu_h) - `Btu_h`
+- Btu (IT)/minute (Btu_min) - `Btu_min`
+- Btu (IT)/second (Btu_s) - `Btu_s`
+- Btu (th)/hour (Btu_th_h) - `Btu_th_h`
+- Btu (th)/minute (Btu_th_min) - `Btu_th_min`
+- Btu (th)/second (Btu_th_s) - `Btu_th_s`
+- MBtu (IT)/hour (MBtu_h) - `MBtu_h`
+- MBH (MBH) - `MBH`
+- Ton (refrigeration) (ton_refrigeration) - `ton_refrigeration`
+- Kilocalorie (IT)/hour (kcal_h) - `kcal_h`
+- Kilocalorie (IT)/minute (kcal_min) - `kcal_min`
+- Kilocalorie (IT)/second (kcal_s) - `kcal_s`
+- Kilocalorie (th)/hour (kcal_th_h) - `kcal_th_h`
+- Kilocalorie (th)/minute (kcal_th_min) - `kcal_th_min`
+- Kilocalorie (th)/second (kcal_th_s) - `kcal_th_s`
+- Calorie (IT)/hour (cal_h) - `cal_h`
+- Calorie (IT)/minute (cal_min) - `cal_min`
+- Calorie (IT)/second (cal_s) - `cal_s`
+- Calorie (th)/hour (cal_th_h) - `cal_th_h`
+- Calorie (th)/minute (cal_th_min) - `cal_th_min`
+- Calorie (th)/second (cal_th_s) - `cal_th_s`
+- Foot pound-force/hour (ft_lbf_h) - `ft_lbf_h`
+- Foot pound-force/minute (ft_lbf_min) - `ft_lbf_min`
+- Foot pound-force/second (ft_lbf_s) - `ft_lbf_s`
+- Pound-foot/hour (lbf_ft_h) - `lbf_ft_h`
+- Pound-foot/minute (lbf_ft_min) - `lbf_ft_min`
+- Pound-foot/second (lbf_ft_s) - `lbf_ft_s`
+- Erg/second (erg_s) - `erg_s`
+- Kilovolt ampere (kV_A) - `kV_A`
+- Volt ampere (V_A) - `V_A`
+- Newton meter/second (N_m_s) - `N_m_s`
+- Joule/second (J_s) - `J_s`
+- Exajoule/second (EJ_s) - `EJ_s`
+- Petajoule/second (PJ_s) - `PJ_s`
+- Terajoule/second (TJ_s) - `TJ_s`
+- Gigajoule/second (GJ_s) - `GJ_s`
+- Megajoule/second (MJ_s) - `MJ_s`
+- Kilojoule/second (kJ_s) - `kJ_s`
+- Hectojoule/second (hJ_s) - `hJ_s`
+- Dekajoule/second (daJ_s) - `daJ_s`
+- Decijoule/second (dJ_s) - `dJ_s`
+- Centijoule/second (cJ_s) - `cJ_s`
+- Millijoule/second (mJ_s) - `mJ_s`
+- Microjoule/second (µJ_s) - `µJ_s`
+- Nanojoule/second (nJ_s) - `nJ_s`
+- Picojoule/second (pJ_s) - `pJ_s`
+- Femtojoule/second (fJ_s) - `fJ_s`
+- Attojoule/second (aJ_s) - `aJ_s`
+- Joule/hour (J_h) - `J_h`
+- Joule/minute (J_min) - `J_min`
+- Kilojoule/hour (kJ_h) - `kJ_h`
+- Kilojoule/minute (kJ_min) - `kJ_min`
+
+</details>
+
 ## Error Handling Metric Converter
 
 Error Handling Metric Converter provides error handling for unsupported units and invalid conversion operations. If an unsupported unit is provided or an invalid conversion operation is attempted, an appropriate error will be thrown.
