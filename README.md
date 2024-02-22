@@ -414,6 +414,26 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 - Therm (US) (therm_US) - Singular: Therm (US), Plural: Therms (US) - `therm_US`
 </details>
 
+<details>
+<summary>Volume Dry</summary>
+
+- Liter (L) - Singular: Liter, Plural: Liters - `L`
+- Barrel dry (US) (bbl_dry_US) - Singular: Barrel dry (US), Plural: Barrels dry (US) - `bbl_dry_US`
+- Pint dry (US) (pt_dry_US) - Singular: Pint dry (US), Plural: Pints dry (US) - `pt_dry_US`
+- Quart dry (US) (qt_dry_US) - Singular: Quart dry (US), Plural: Quarts dry (US) - `qt_dry_US`
+- Peck (US) (pk_US) - Singular: Peck (US), Plural: Pecks (US) - `pk_US`
+- Peck (UK) (pk_UK) - Singular: Peck (UK), Plural: Pecks (UK) - `pk_UK`
+- Bushel (US) (bu_US) - Singular: Bushel (US), Plural: Bushels (US) - `bu_US`
+- Bushel (UK) (bu_UK) - Singular: Bushel (UK), Plural: Bushels (UK) - `bu_UK`
+- Cor (Biblical) (cor_biblical) - Singular: Cor (Biblical), Plural: Cors (Biblical) - `cor_biblical`
+- Homer (Biblical) (homer_biblical) - Singular: Homer (Biblical), Plural: Homers (Biblical) - `homer_biblical`
+- Ephah (Biblical) (ephah_biblical) - Singular: Ephah (Biblical), Plural: Ephahs (Biblical) - `ephah_biblical`
+- Seah (Biblical) (seah_biblical) - Singular: Seah (Biblical), Plural: Seahs (Biblical) - `seah_biblical`
+- Omer (Biblical) (omer_biblical) - Singular: Omer (Biblical), Plural: Omers (Biblical) - `omer_biblical`
+- Cab (Biblical) (cab_biblical) - Singular: Cab (Biblical), Plural: Cabs (Biblical) - `cab_biblical`
+- Log (Biblical) (log_biblical) - Singular: Log (Biblical), Plural: Logs (Biblical) - `log_biblical`
+
+</details>
 
 ## Error Handling Metric Converter
 
