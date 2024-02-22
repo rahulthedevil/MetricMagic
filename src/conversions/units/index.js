@@ -4,6 +4,7 @@ import area from './area';
 import temperature from './temperature';
 import volume from './volume';
 import time from './time';
+import pressure from './pressure';
 
 // Define a measures object to hold all measure definitions
 const measures = {
@@ -13,6 +14,7 @@ const measures = {
   temperature,
   volume,
   time,
+  pressure,
 };
 
 // Export the measures object

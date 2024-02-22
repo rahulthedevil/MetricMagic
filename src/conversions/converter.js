@@ -51,8 +51,6 @@ export default class Converter {
         */
         result = this.val * this.origin.unit.to_anchor;
     
-        console.log("Result after converting to anchor in source system:", result);
-    
         /**
         * For some changes it's a simple shift (C to K)
         * So we'll add it when converting into the unit (later)
@@ -61,8 +59,6 @@ export default class Converter {
         if (this.origin.unit.anchor_shift) {
             result -= this.origin.unit.anchor_shift;
         }
-    
-        console.log("Result after applying anchor shift in source unit:", result);
     
         /**
         * Convert from one system to another through the anchor ratio. Some conversions
@@ -78,8 +74,6 @@ export default class Converter {
             }
         }
     
-        console.log("Result after converting between systems:", result);
-    
         /**
         * This shift has to be done after the system conversion business
         */
@@ -87,16 +81,12 @@ export default class Converter {
             result += this.destination.unit.anchor_shift;
         }
     
-        console.log("Result after applying anchor shift in destination unit:", result);
-    
         /**
         * Convert to another unit inside the destination system
         */
         let finalResult = result / this.destination.unit.to_anchor;
 
         finalResult = Math.round(finalResult * 1e6) / 1e6;
-    
-        console.log("Final result after converting to destination unit:", finalResult);
     
         return finalResult;
     }

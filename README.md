@@ -277,6 +277,61 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
     - Century (century) - `century`
     - Millennium (millennium) - `millennium`
 
+- Pressure
+    - Pascal (Pa) - `Pa`
+    - Kilopascal (kPa) - `kPa`
+    - Bar (bar) - `bar`
+    - Psi (psi) - `psi`
+    - Ksi (ksi) - `ksi`
+    - Standard atmosphere (atm) - `atm`
+    - Exapascal (EPa) - `EPa`
+    - Petapascal (PPa) - `PPa`
+    - Terapascal (TPa) - `TPa`
+    - Gigapascal (GPa) - `GPa`
+    - Megapascal (MPa) - `MPa`
+    - Hectopascal (hPa) - `hPa`
+    - Dekapascal (daPa) - `daPa`
+    - Decipascal (dPa) - `dPa`
+    - Centipascal (cPa) - `cPa`
+    - Millipascal (mPa) - `mPa`
+    - Micropascal (µPa) - `µPa`
+    - Nanopascal (nPa) - `nPa`
+    - Picopascal (pPa) - `pPa`
+    - Femtopascal (fPa) - `fPa`
+    - Attopascal (aPa) - `aPa`
+    - Newton/square meter (N/m²) - `N__pm2`
+    - Newton/square centimeter (N/cm²) - `N__pcm2`
+    - Newton/square millimeter (N/mm²) - `N__pmm2`
+    - Kilonewton/square meter (kN/m²) - `kN__pm2`
+    - Millibar (mbar) - `mbar`
+    - Microbar (µbar) - `µbar`
+    - Dyne/square centimeter (dyn/cm²) - `dyn__pcm2`
+    - Kilogram-force/square meter (kgf/m²) - `kgf__pm2`
+    - Kilogram-force/square centimeter (kgf/cm²) - `kgf__pcm2`
+    - Kilogram-force/square millimeter (kgf/mm²) - `kgf__pmm2`
+    - Gram-force/square centimeter (gf/cm²) - `gf__pcm2`
+    - Ton-force (short)/square foot (tf/ft²) - `tf__psft`
+    - Ton-force (short)/square inch (tf/in²) - `tf__psin2`
+    - Ton-force (long)/square foot (tf/ft²) - `tf__plft`
+    - Ton-force (long)/square inch (tf/in²) - `tf__plin2`
+    - Kip-force/square inch (kipf/in²) - `kipf__psin2`
+    - Pound-force/square foot (lbf/ft²) - `lbf__psft`
+    - Pound-force/square inch (lbf/in²) - `lbf__psin2`
+    - Poundal/square foot (pdl/ft²) - `pdl__psft`
+    - Torr (Torr) - `Torr`
+    - Centimeter mercury (0°C) (cm Hg 0°C) - `cm_Hg_0C`
+    - Millimeter mercury (0°C) (mm Hg 0°C) - `mm_Hg_0C`
+    - Inch mercury (32°F) (in Hg 32°F) - `in_Hg_32F`
+    - Inch mercury (60°F) (in Hg 60°F) - `in_Hg_60F`
+    - Centimeter water (4°C) (cm H2O 4°C) - `cm_H2O_4C`
+    - Millimeter water (4°C) (mm H2O 4°C) - `mm_H2O_4C`
+    - Inch water (4°C) (in H2O 4°C) - `in_H2O_4C`
+    - Foot water (4°C) (ft H2O 4°C) - `ft_H2O_4C`
+    - Inch water (60°F) (in H2O 60°F) - `in_H2O_60F`
+    - Foot water (60°F) (ft H2O 60°F) - `ft_H2O_60F`
+    - Atmosphere technical (at) - `at`
+
+
 ## Error Handling Metric Converter
 
 Error Handling Metric Converter provides error handling for unsupported units and invalid conversion operations. If an unsupported unit is provided or an invalid conversion operation is attempted, an appropriate error will be thrown.
