@@ -518,6 +518,41 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Force</summary>
+
+- Newton (N) - `N`
+- Kilonewton (kN) - `kN`
+- Gram-force (gf) - `gf`
+- Kilogram-force (kgf) - `kgf`
+- Ton-force (metric) (tf) - `tf`
+- Exanewton (EN) - `EN`
+- Petanewton (PT) - `PT`
+- Teranewton (TN) - `TN`
+- Giganewton (GN) - `GN`
+- Meganewton (MN) - `MN`
+- Hectonewton (hN) - `hN`
+- Dekanewton (daN) - `daN`
+- Decinewton (dN) - `dN`
+- Centinewton (cN) - `cN`
+- Millinewton (mN) - `mN`
+- Micronewton (µN) - `µN`
+- Nanonewton (nN) - `nN`
+- Piconewton (pN) - `pN`
+- Femtonewton (fN) - `fN`
+- Attonewton (aN) - `aN`
+- Dyne (dyn) - `dyn`
+- Joule/meter (J_m) - `J_m`
+- Joule/centimeter (J_cm) - `J_cm`
+- Pound-force (lbf) - `lbf`
+- Ounce-force (ozf) - `ozf`
+- Ton-force (long) (tonf_UK) - `tonf_UK`
+- Ton-force (short) (tonf_US) - `tonf_US`
+- Kip-force (kipf) - `kipf`
+
+</details>
+
+
 ## Error Handling Metric Converter
 
 Error Handling Metric Converter provides error handling for unsupported units and invalid conversion operations. If an unsupported unit is provided or an invalid conversion operation is attempted, an appropriate error will be thrown.
