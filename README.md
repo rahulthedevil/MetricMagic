@@ -571,6 +571,24 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Angle</summary>
+
+- Radian (rad) - `rad`
+- Grad (grad) - `grad` (1 grad = π/200 rad)
+- Gon (gon) - `gon` (1 gon = π/200 rad)
+- Mil (mil) - `mil` (1 mil = π/3200 rad)
+- Turn (turn) - `turn` (1 turn = 2π rad)
+- Quadrant (quadrant) - `quadrant` (1 quadrant = π/2 rad)
+- Sextant (sextant) - `sextant` (1 sextant = π/3 rad)
+- Degree (deg) - `deg`
+- Minute (minute) - `minute` (1 minute = 1/60 degree)
+- Second (second) - `second` (1 second = 1/3600 degree)
+- Revolution (revolution) - `revolution` (1 revolution = 360 degrees)
+- Right Angle (right_angle) - `right_angle` (1 right angle = π/2 rad)
+
+</details>
+
 
 ## Error Handling Metric Converter
 

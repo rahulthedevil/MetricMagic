@@ -10,6 +10,7 @@ import volumeDry from './volumeDry';
 import power from './power';
 import force from './force';
 import speed from './speed';
+import angle from './angle';
 
 // Define a measures object to hold all measure definitions
 const measures = {
@@ -25,6 +26,7 @@ const measures = {
   power,
   force,
   speed,
+  angle,
 };
 
 // Export the measures object
