@@ -20,14 +20,14 @@ To use Metric Converter, you can follow these steps:
 Import the module:
 
 ```bash
-const convert = require('metric-converter');
+import MetricConverter from 'metric-converter';
 ```
 
 Perform conversions as needed. Here's an example converting length from meters to centimeters:
 
 ```bash
 const lengthInMeters = 5;
-const lengthInCentimeters = convert(lengthInMeters).from('m').to('cm');
+const lengthInCentimeters = MetricConverter(lengthInMeters).from('m').to('cm');
 console.log(`${lengthInMeters} meters is ${lengthInCentimeters} centimeters`);
 ```
 
@@ -237,26 +237,26 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
     - Acre-inch (ac_in) - `ac_in`
 
 - Area
-    - Square Meter (m²) - `m²`
-    - Square Kilometer (km²) - `km²`
-    - Square Centimeter (cm²) - `cm²`
-    - Square Millimeter (mm²) - `mm²`
-    - Square Micrometer (um²) - `um²`
+    - Square Meter (m²) - `m2`
+    - Square Kilometer (km²) - `km2`
+    - Square Centimeter (cm²) - `cm2`
+    - Square Millimeter (mm²) - `mm2`
+    - Square Micrometer (um²) - `um2`
     - Hectare (ha) - `ha`
     - Are (a) - `a`
-    - Square Nanometer (nm²) - `nm²`
-    - Square Decimeter (dm²) - `dm²`
-    - Square Hectometer (hm²) - `hm²`
-    - Square Mile (mi²) - `mi²`
-    - Square Yard (yd²) - `yd²`
-    - Square Foot (ft²) - `ft²`
-    - Square Inch (in²) - `in²`
+    - Square Nanometer (nm²) - `nm2`
+    - Square Decimeter (dm²) - `dm2`
+    - Square Hectometer (hm²) - `hm2`
+    - Square Mile (mi²) - `mi2`
+    - Square Yard (yd²) - `yd2`
+    - Square Foot (ft²) - `ft2`
+    - Square Inch (in²) - `in2`
     - Acre (ac) - `ac`
-    - Square Chain (ch²) - `ch²`
+    - Square Chain (ch²) - `ch2`
     - Rood (rood) - `rood`
     - Perch (perch) - `perch`
     - Pole (pole) - `pole`
-    - Square Mil (mil²) - `mil²`
+    - Square Mil (mil²) - `mil2`
     - Circular Mil (circular_mil) - `circular_mil`
 
 - Time
