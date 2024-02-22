@@ -1,6 +1,6 @@
 {
   "name": "metric-converter",
-  "version": "v0.0.2.1-alpha",
+  "version": "v0.0.3-alpha",
   "description": "A simple utility package for converting between metric units such as meters, kilometers, grams, kilograms, liters, and more.",
   "main": "index.js",
   "scripts": {
