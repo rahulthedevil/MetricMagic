@@ -358,6 +358,62 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 - Atmosphere technical (at) - `at`
 </details>
 
+<details>
+<summary>Energy</summary>
+
+- Joule (J) - Singular: Joule, Plural: Joules - `J`
+- Kilojoule (kJ) - Singular: Kilojoule, Plural: Kilojoules - `kJ`
+- Kilowatt-hour (kW_h) - Singular: Kilowatt-hour, Plural: Kilowatt-hours - `kW_h`
+- Watt-hour (W_h) - Singular: Watt-hour, Plural: Watt-hours - `W_h`
+- Calorie (nutritional) (cal) - Singular: Calorie (nutritional), Plural: Calories (nutritional) - `cal`
+- Horsepower hour (hp_h) - Singular: Horsepower hour, Plural: Horsepower hours - `hp_h`
+- Btu (IT) (Btu_IT) - Singular: Btu (IT), Plural: Btu (IT) - `Btu_IT`
+- Btu (th) (Btu_th) - Singular: Btu (th), Plural: Btu (th) - `Btu_th`
+- Gigajoule (GJ) - Singular: Gigajoule, Plural: Gigajoules - `GJ`
+- Megajoule (MJ) - Singular: Megajoule, Plural: Megajoules - `MJ`
+- Millijoule (mJ) - Singular: Millijoule, Plural: Millijoules - `mJ`
+- Microjoule (µJ) - Singular: Microjoule, Plural: Microjoules - `µJ`
+- Nanojoule (nJ) - Singular: Nanojoule, Plural: Nanojoules - `nJ`
+- Attojoule (aJ) - Singular: Attojoule, Plural: Attojoules - `aJ`
+- Megaelectron-volt (MeV) - Singular: Megaelectron-volt, Plural: Megaelectron-volts - `MeV`
+- Kiloelectron-volt (keV) - Singular: Kiloelectron-volt, Plural: Kiloelectron-volts - `keV`
+- Electron-volt (eV) - Singular: Electron-volt, Plural: Electron-volts - `eV`
+- Erg (erg) - Singular: Erg, Plural: Ergs - `erg`
+- Gigawatt-hour (GW_h) - Singular: Gigawatt-hour, Plural: Gigawatt-hours - `GW_h`
+- Megawatt-hour (MW_h) - Singular: Megawatt-hour, Plural: Megawatt-hours - `MW_h`
+- Kilowatt-second (kW_s) - Singular: Kilowatt-second, Plural: Kilowatt-seconds - `kW_s`
+- Watt-second (W_s) - Singular: Watt-second, Plural: Watt-seconds - `W_s`
+- Newton meter (N_m) - Singular: Newton meter, Plural: Newton meters - `N_m`
+- Kilocalorie (IT) (kcal_IT) - Singular: Kilocalorie (IT), Plural: Kilocalories (IT) - `kcal_IT`
+- Kilocalorie (th) (kcal_th) - Singular: Kilocalorie (th), Plural: Kilocalories (th) - `kcal_th`
+- Calorie (IT) (cal_IT) - Singular: Calorie (IT), Plural: Calories (IT) - `cal_IT`
+- Calorie (th) (cal_th) - Singular: Calorie (th), Plural: Calories (th) - `cal_th`
+- Mega Btu (IT) (MBtu_IT) - Singular: Mega Btu (IT), Plural: Mega Btu (IT) - `MBtu_IT`
+- Ton-hour (refrigeration) (Ton_hr) - Singular: Ton-hour (refrigeration), Plural: Ton-hours (refrigeration) - `Ton_hr`
+- Fuel oil equivalent @ kiloliter (J__kl) - Singular: Fuel oil equivalent @ kiloliter, Plural: Fuel oil equivalent @ kiloliters - `J__kl`
+- Fuel oil equivalent @ barrel (US) (J__barrel) - Singular: Fuel oil equivalent @ barrel (US), Plural: Fuel oil equivalent @ barrels (US) - `J__barrel`
+- Gigaton (Gton) - Singular: Gigaton, Plural: Gigatons - `Gton`
+- Megaton (Mton) - Singular: Megaton, Plural: Megatons - `Mton`
+- Kiloton (kton) - Singular: Kiloton, Plural: Kilotons - `kton`
+- Ton (explosives) (ton_exp) - Singular: Ton (explosives), Plural: Tons (explosives) - `ton_exp`
+- Dyne centimeter (dyn_cm) - Singular: Dyne centimeter, Plural: Dyne centimeters - `dyn_cm`
+- Gram-force meter (gf_m) - Singular: Gram-force meter, Plural: Gram-force meters - `gf_m`
+- Gram-force centimeter (gf_cm) - Singular: Gram-force centimeter, Plural: Gram-force centimeters - `gf_cm`
+- Kilogram-force centimeter (kgf_cm) - Singular: Kilogram-force centimeter, Plural: Kilogram-force centimeters - `kgf_cm`
+- Kilogram-force meter (kgf_m) - Singular: Kilogram-force meter, Plural: Kilogram-force meters - `kgf_m`
+- Kilopond meter (kp_m) - Singular: Kilopond meter, Plural: Kilopond meters - `kp_m`
+- Pound-force foot (lbf_ft) - Singular: Pound-force foot, Plural: Pound-force feet - `lbf_ft`
+- Pound-force inch (lbf_in) - Singular: Pound-force inch, Plural: Pound-force inches - `lbf_in`
+- Ounce-force inch (ozf_in) - Singular: Ounce-force inch, Plural: Ounce-force inches - `ozf_in`
+- Foot-pound (ft_lbf) - Singular: Foot-pound, Plural: Foot-pounds - `ft_lbf`
+- Inch-pound (in_lbf) - Singular: Inch-pound, Plural: Inch-pounds - `in_lbf`
+- Inch-ounce (in_ozf) - Singular: Inch-ounce, Plural: Inch-ounces - `in_ozf`
+- Poundal foot (pdl_ft) - Singular: Poundal foot, Plural: Poundal feet - `pdl_ft`
+- Therm (therm) - Singular: Therm, Plural: Therms - `therm`
+- Therm (EC) (therm_EC) - Singular: Therm (EC), Plural: Therms (EC) - `therm_EC`
+- Therm (US) (therm_US) - Singular: Therm (US), Plural: Therms (US) - `therm_US`
+</details>
+
 
 ## Error Handling Metric Converter
 
