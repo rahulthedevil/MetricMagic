@@ -689,6 +689,47 @@ Metric Converter supports a variety of units for length, mass, volume, and more.
 
 </details>
 
+<details>
+<summary>Data Storage</summary>
+
+- Bit - `b`
+- Byte - `B`
+- Nibble - `nibble`
+- Character - `character`
+- Word - `word`
+- MAPM-Word - `MAPM-word`
+- Quadruple-Word - `quadruple-word`
+- Block - `block`
+- Kilobit - `kb`
+- Kilobyte - `kB`
+- Megabit - `Mb`
+- Megabyte - `MB`
+- Gigabit - `Gb`
+- Gigabyte - `GB`
+- Terabit - `Tb`
+- Terabyte - `TB`
+- Petabit - `Pb`
+- Petabyte - `PB`
+- Exabit - `Eb`
+- Exabyte - `EB`
+- Floppy Disk (3.5", DD) - `floppy disk (3.5", DD)`
+- Floppy Disk (3.5", HD) - `floppy disk (3.5", HD)`
+- Floppy Disk (3.5", ED) - `floppy disk (3.5", ED)`
+- Floppy Disk (5.25", DD) - `floppy disk (5.25", DD)`
+- Floppy Disk (5.25", HD) - `floppy disk (5.25", HD)`
+- Zip 100 - `Zip 100`
+- Zip 250 - `Zip 250`
+- Jaz 1GB - `Jaz 1GB`
+- Jaz 2GB - `Jaz 2GB`
+- CD (74 minute) - `CD (74 minute)`
+- CD (80 minute) - `CD (80 minute)`
+- DVD (1 layer, 1 side) - `DVD (1 layer, 1 side)`
+- DVD (2 layer, 1 side) - `DVD (2 layer, 1 side)`
+- DVD (1 layer, 2 side) - `DVD (1 layer, 2 side)`
+- DVD (2 layer, 2 side) - `DVD (2 layer, 2 side)`
+
+</details>
+
 
 ## Error Handling Metric Converter
 
