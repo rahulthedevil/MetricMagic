@@ -1,6 +1,6 @@
 {
   "name": "metric-converter",
-  "version": "v0.0.9-alpha",
+  "version": "v0.0.10-alpha",
   "description": "A simple utility package for converting between metric units such as meters, kilometers, grams, kilograms, liters, and more.",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,8 @@
   "author": "Rahul Dey",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "metric-converter": "^0.0.8-alpha"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
