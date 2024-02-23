@@ -2,9 +2,10 @@
   "name": "metric-converter",
   "version": "v0.0.7-alpha",
   "description": "A simple utility package for converting between metric units such as meters, kilometers, grams, kilograms, liters, and more.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "npx webpack --mode=production"
   },
   "author": "Rahul Dey",
   "license": "MIT",
