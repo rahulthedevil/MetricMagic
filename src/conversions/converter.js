@@ -84,15 +84,12 @@ export default class Converter {
         /**
         * Convert to another unit inside the destination system
         */
-        let finalResult = result / this.destination.unit.to_anchor;
+        const finalResult = result / this.destination.unit.to_anchor;
 
-        let resultTouse = Math.round(finalResult * 1e6) / 1e6;
-
-        if (resultTouse === 0) {
-            return finalResult;
-        }
+        // commented the round, will investigate this later
+        //let resultTouse = Math.round(finalResult * 1e6) / 1e6;
     
-        return resultTouse;
+        return finalResult;
     }
     
 
