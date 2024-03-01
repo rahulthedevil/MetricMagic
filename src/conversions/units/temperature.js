@@ -9,7 +9,8 @@ const temperature = {
                 singular: 'Celsius',
                 plural: 'Celsius'
             },
-            to_anchor: 1
+            to_anchor: 1,
+            anchor_shift: 0,
         },
         K: {
             name: {
@@ -27,6 +28,14 @@ const temperature = {
                 plural: 'Fahrenheit'
             },
             to_anchor: 1
+        },
+        R: {
+            name: {
+              singular: 'degree Rankine',
+              plural: 'degrees Rankine',
+            },
+            to_anchor: 1,
+            anchor_shift: 459.67,
         },
     },
     _anchors: {
