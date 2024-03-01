@@ -86,9 +86,13 @@ export default class Converter {
         */
         let finalResult = result / this.destination.unit.to_anchor;
 
-        finalResult = Math.round(finalResult * 1e6) / 1e6;
+        let resultTouse = Math.round(finalResult * 1e6) / 1e6;
+
+        if (resultTouse === 0) {
+            return finalResult;
+        }
     
-        return finalResult;
+        return resultTouse;
     }
     
 
