@@ -366,7 +366,7 @@ const length = {
                 singular: 'Finger (cloth)',
                 plural: 'Fingers (cloth)'
             },
-            to_anchor: 0.1143
+            to_anchor: 0.11430000000000001
         },
         nail_cloth: {
             name: {
@@ -569,7 +569,7 @@ const length = {
                 singular: 'Fingerbreadth',
                 plural: 'Fingerbreadths'
             },
-            to_anchor: 0.0254
+            to_anchor: 100 * 0.5249343832
         },
         pl: {
             name: {
